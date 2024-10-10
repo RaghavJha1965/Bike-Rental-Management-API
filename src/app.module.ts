@@ -12,7 +12,7 @@ import { BikesModule } from './bikes/bikes.module';
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
     }),
-    BikesModule, // Import the BikesModule
+    BikesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
